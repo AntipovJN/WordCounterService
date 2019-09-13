@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class CounterServiceImpl implements CounterService {
 
-
     public Map<String, Integer> getCounterMap(String words) {
         Map<String, Integer> wordsMap = new HashMap<String, Integer>();
         for (String word : words.split(" ")) {
